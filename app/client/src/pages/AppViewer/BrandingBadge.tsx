@@ -19,7 +19,7 @@ const Wrapper = styled.span`
 function BrandingBadge() {
   return (
     <Wrapper className="flex items-center p-1 px-2 space-x-2 w-max backdrop-blur-xl backdrop-filter">
-      <Text renderAs="h4">My Agent</Text>
+      <h4>My Agent</h4>
     </Wrapper>
   );
 }
